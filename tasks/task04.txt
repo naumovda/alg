@@ -1,0 +1,9 @@
+Алгоритмы для реализации:
+1. Multiply (слайд 6) 
+2. Divide (слайд 7)
+3. ModExp (слайд 16)
+4. Euclid (слайд 17)
+5. ExtendedEuclid (слайд 19)
+6. Primality (слайд 26)
+7. Primality2 (слайд 27)
+8. Алгоритм RSA (слайд 36)
