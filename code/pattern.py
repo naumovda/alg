@@ -45,8 +45,7 @@ def check(value, pattern):
     for i in range(len(pattern)):
         if pattern[i] == QST:
             s += 1
-    return len(value) >= s
-   
+    return len(value) >= s 
 
 def main():
     value = 'foobar'
