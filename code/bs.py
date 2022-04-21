@@ -20,7 +20,7 @@ def rbs(bunch, item, left, right):
 
 def main():
     print("bunch=", bunch)
-    key = 11
+    key = 11 
     print(lbs(bunch, key, -1, len(bunch)))
     print(rbs(bunch, key, -1, len(bunch)))
 
