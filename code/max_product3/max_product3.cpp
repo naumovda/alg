@@ -20,13 +20,16 @@ int main(void)
         throw std::invalid_argument("Data array must contain at least 3 values");
     }
 
-    vector<int> data(size);
+    //vector<int> data(size);
+    vector<int> data = {};
 
     int i = 0;
     while (i < size)
     {
         cin >> value;
-        data[i] = value;
+        //data[i] = value;
+        data.push_back(value);
+
         i++;
     }      
     
