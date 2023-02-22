@@ -1,0 +1,6 @@
+test_mp0:     8.71
+test_mp1:    25.46
+test_mp2:     4.00
+test_mp3:  7707.47
+test_mp4:    60.27
+test_mp5: 79872.44

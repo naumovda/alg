@@ -156,5 +156,5 @@ def test_alg(calc_function, filename, dir='./code/min_polygon/', dataSize=None):
 if __name__ == "__main__":
     filename = 'test_mp5.txt'
     
-    test_alg(getMinPolygon_D2, filename)
+    # test_alg(getMinPolygon_D2, filename)
     test_alg(getMinPolygon_N2, filename)
