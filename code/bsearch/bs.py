@@ -8,6 +8,26 @@ def lbs(bunch, item, left, right):
         else:
             right = middle
     return left
+	
+def lbs_rec(bunch, item, left, right):
+	if right - left <= 1:
+		return left
+	else:
+		middle = (right + left) // 2
+		if bunch[middle] < item:
+			return lbs_rec(bunch, item, middle, right)
+        else:
+			return lbs_rec(bunch, item, left, middle)
+
+def rbs_rec(bunch, item, left, right):
+	if right - left <= 1:
+		return right
+	else:
+		middle = (right + left) // 2
+		if bunch[middle] <= item:
+			return rbs_rec(bunch, item, middle, right)
+        else:
+			return rbs_rec(bunch, item, left, middle)
 
 def rbs(bunch, item, left, right):
     while right - left > 1:
